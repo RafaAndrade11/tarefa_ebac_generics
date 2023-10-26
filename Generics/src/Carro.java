@@ -33,15 +33,5 @@ public abstract class Carro {
         this.ano = ano;
     }
 
-    @Override
-    public String toString() {
-        return "Carro = " + getClass().getSimpleName() + "\n" +
-                "Modelo = " + modelo +  "\n" +
-                "Cor = " + cor + "\n" +
-                "Ano = " + ano + "\n" +
-                "++++++++++++++++++++++++++++++++++++++++++++++++++++++++" +
-                "\n"
-                ;
-
     }
-}
+
